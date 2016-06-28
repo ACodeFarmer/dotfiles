@@ -1,5 +1,5 @@
 # Alias 설정
 
-alias ll="ls -alt --color=auto"
-alias llt="ls -alt --color=auto"
+alias ll="ls -al"
+alias llt="ls -alt"
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
