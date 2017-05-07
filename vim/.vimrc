@@ -15,4 +15,7 @@ endif
 
 syntax enable
 set background=dark
+
+" http://vimcolors.com/
+" http://cocopon.me/app/vim-color-gallery/
 colorscheme jellybeans
