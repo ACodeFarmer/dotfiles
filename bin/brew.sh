@@ -16,6 +16,10 @@ then
   brew update
 
   # TODO : 패키지 자동 설치
+  brew tap Homebrew/bundle
+  brew bundle
+
+  #brew bundle --file=devel/vagrant.Brewfile
 else
   echo '> 이 섹션은 OSX를 위해서만 작성되었습니다. 리눅스용 Homebrew 사용은 지원하지 않습니다.'
 fi
