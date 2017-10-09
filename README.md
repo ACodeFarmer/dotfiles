@@ -1,3 +1,3 @@
 # Dotfile
 
-Just execute 'scripts/bootstrap'
+Just execute 'scripts/bootstrap.sh'
