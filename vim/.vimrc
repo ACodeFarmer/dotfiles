@@ -1,3 +1,16 @@
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'nanotech/jellybeans.vim'
+
+call vundle#end()
+filetype plugin indent on
+
 if &term =~ "xterm"
   " 256 colors
   let &t_Co = 256
@@ -11,11 +24,10 @@ if &term =~ "xterm"
     let &t_Sf = "\<Esc>[3%dm"
     let &t_Sb = "\<Esc>[4%dm"
   endif
+elseif &term =~ "screen"
+  let &t_Co = 256
 endif
 
 syntax enable
 set background=dark
-
-" http://vimcolors.com/
-" http://cocopon.me/app/vim-color-gallery/
 colorscheme jellybeans
