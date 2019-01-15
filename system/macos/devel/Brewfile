@@ -1,5 +1,6 @@
-#cask_args appdir: '/Applications'
-#tap 'caskroom/homebrew-cask' || true
-brew 'git'
-brew 'readline'
 cask 'gisto'
+brew 'git'
+cask 'intellij-idea'
+cask 'iterm2'
+cask 'postman'
+brew 'readline'

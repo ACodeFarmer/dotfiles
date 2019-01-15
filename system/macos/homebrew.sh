@@ -12,12 +12,8 @@ then
   fi
   print_message 'Brew 업데이트를 진행합니다.'
   brew update
-
-  ask_for_confirmation "Homebrew Bundle 을 설치 할까요?"
-  if answer_is_yes; then
-    brew tap Homebrew/bundle
-  fi
-
+  brew tap Homebrew/bundle
+  
   ask_for_confirmation "Homebrew 를 통해 기본 애플리케이션들을 설치 할까요?"
   if answer_is_yes; then
     brew bundle --file=$DOTFILES_ROOT/system/macos/Brewfile
