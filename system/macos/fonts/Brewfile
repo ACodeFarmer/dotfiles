@@ -1,2 +1,4 @@
 tap 'homebrew/cask-fonts' || true
 cask 'font-nanumgothic'
+cask 'ont-hack-nerd-font'
+cask 'font-noto-sans-cjk'
